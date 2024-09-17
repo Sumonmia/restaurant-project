@@ -28,7 +28,7 @@ const showPotatoMenus = (meals) =>{
                       <h2 class="card-title">${food.strMeal}</h2>
                       <p title="${food.strInstructions}">${food.strInstructions.slice(0,100)}...</p>
                       <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn bg-orange-300 border-0 hover:bg-transparent hover:text-orange-500 hover:border-2">Show Details</button>
                       </div>
                     </div>
         `;
@@ -65,7 +65,7 @@ const showSoupMenus = (meals) =>{
                       <h2 class="card-title">${food.strMeal}</h2>
                       <p title="${food.strInstructions}">${food.strInstructions.slice(0,100)}...</p>
                       <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn bg-orange-300 border-0 hover:bg-transparent hover:text-orange-500 hover:border-2">Show Details</button>
                       </div>
                     </div>
         `;
@@ -102,7 +102,7 @@ const showChickenMenus = (meals) =>{
                       <h2 class="card-title">${food.strMeal}</h2>
                       <p title="${food.strInstructions}">${food.strInstructions.slice(0,100)}...</p>
                       <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn bg-orange-300 border-0 hover:bg-transparent hover:text-orange-500 hover:border-2">Show Details</button>
                       </div>
                     </div>
         `;
@@ -139,7 +139,7 @@ const showBeefMenus = (meals) =>{
                       <h2 class="card-title">${food.strMeal}</h2>
                       <p title="${food.strInstructions}">${food.strInstructions.slice(0,100)}...</p>
                       <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn bg-orange-300 border-0 hover:bg-transparent hover:text-orange-500 hover:border-2">View Details</button>
                       </div>
                     </div>
         `;
