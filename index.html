@@ -9,6 +9,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font awsome kit -->
     <script src="https://kit.fontawesome.com/9e8306aeda.js" crossorigin="anonymous"></script>
+    <style>
+        .nav-control{
+            z-index: 50 !important;
+        }
+    </style>
 
 </head>
 
@@ -16,7 +21,7 @@
     <header id="top">
         <section>
             <!-- Navbar start -->
-            <div class="w-4/5 mx-auto bg-gray-100 sticky top-0 z-50 navbar border-2 rounded-md shadow-md">
+            <div class="w-4/5 mx-auto bg-gray-100 sticky top-0 z-50 nav-control navbar border-2 rounded-md shadow-md">
                 <!-- dropdown start -->
                 <div class="dropdown">`
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -68,7 +73,7 @@
             <!-- Navbar end -->
 
             <!-- Banner start -->
-            <div class="carousel w-full z-40">
+            <div class="carousel w-full">
                 <!-- Carousel # 1 -->
                 <div id="slide1" class="carousel-item relative w-full">
                     <div class="hero" style="background-image: url(img/beef-banner-1.jpg);">
@@ -161,8 +166,7 @@
     </header>
 
     <main>
-
-        <section id="menus" class=" w-4/5 mx-auto z-40 my-20">
+        <section id="menus" class=" w-4/5 mx-auto my-20">
             <h3 class="text-center text-md lg:text-2xl font-semibold mb-10">Delicious <span class="text-red-500 italic">Hearty</span> Menus</h3>
             <!-- API Calling area -->
             <div id="food-container" class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -172,7 +176,7 @@
             <!--FAQ start  -->
             <div class="w-4/5 mx-auto">
                 <h1 class="text-center text-md font-semibold my-5 lg:text-2xl lg:my-20">FAQ Section</h1>
-                <div class="collapse collapse-arrow bg-base-200 ">
+                <div class="collapse collapse-arrow bg-base-200 mb-10">
                     <input type="radio" name="my-accordion-2" checked="checked" />
                     <div class="collapse-title text-sm font-semibold lg:text-xl lg:font-medium">What are your
                         restaurant's hours of operation?</div>
@@ -181,7 +185,7 @@
                             open from 12:00 PM to 9:00 PM.</p>
                     </div>
                 </div>
-                <div class="collapse collapse-arrow bg-base-200 ">
+                <div class="collapse collapse-arrow bg-base-200 mb-10">
                     <input type="radio" name="my-accordion-2" checked="checked" />
                     <div class="collapse-title text-sm font-semibold lg:text-xl lg:font-medium">Do you offer delivery or
                         takeout?</div>
@@ -190,7 +194,7 @@
                             through our website or through our delivery partners, such as Foodpanda and Pathao.</p>
                     </div>
                 </div>
-                <div class="collapse collapse-arrow bg-base-200 ">
+                <div class="collapse collapse-arrow bg-base-200 mb-10">
                     <input type="radio" name="my-accordion-2" checked="checked" />
                     <div class="collapse-title text-sm font-semibold lg:text-xl lg:font-medium">Do you accommodate
                         dietary restrictions?</div>
@@ -205,7 +209,7 @@
     </main>
 
     <footer class="bg-orange-100 ">
-        <div class="w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-4 footer text-base-content p-10">
+        <div class="w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-4 footer text-base-content py-10">
             <aside class="">
                 <div class="">
                     <a href="index.html"><img src="img/logo/logo.png" class="w-16 lg:w-20 ml-7" alt="logo"></a>    
