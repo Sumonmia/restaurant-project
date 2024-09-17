@@ -1,4 +1,5 @@
 **Project Name:** The Hearty Spoon
+
 **Project Details:** This is food related website named The Hearty Spoon. 
 The Hearty Spoon is a cozy and welcoming restaurant that specializes in comfort food, 
 offering a menu filled with hearty dishes like creamy potato soups, roasted chicken, 
